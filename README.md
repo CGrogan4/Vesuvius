@@ -82,5 +82,3 @@ An Unreal Engine (UE5) simulation of a volcanic eruption driven by a simple, pre
 - Deferred advanced multiphase/debris features to keep the milestone deliverable stable
 
 ---
-
-## Repo Layout (key paths)
