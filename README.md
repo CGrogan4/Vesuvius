@@ -44,13 +44,6 @@ An Unreal Engine (UE5) simulation of a volcanic eruption driven by a simple, pre
    - Bind **Velocity** → **Initialize/Add Velocity → Z**  
    - In **System Settings**: enable **Use Fixed Bounds**; set **Min** `(-5000,-5000,0)`, **Max** `(5000,5000,9000)`; **Save**
 
-> If you recreated module files, ensure `Source/VesuviusOne/VesuviusOne.Build.cs` includes:
-> ```csharp
-> PublicDependencyModuleNames.AddRange(new string[] {
->   "Core","CoreUObject","Engine","InputCore","Niagara","UMG","Slate","SlateCore","PhysicsCore"
-> });
-> ```
-
 ## Usage
 
 ### How to run the simulation (fast path)
